@@ -23,6 +23,7 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatFormFieldModule} from '@angular/material/form-field'; 
 import {MatCardModule} from '@angular/material/card'; 
 import {LayoutModule} from '@angular/cdk/layout'; 
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import {LayoutModule} from '@angular/cdk/layout';
     MatFormFieldModule,
     MatCardModule,
     LayoutModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
